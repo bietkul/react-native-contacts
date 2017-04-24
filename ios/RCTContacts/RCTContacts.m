@@ -1,8 +1,8 @@
-#import <AddressBook/AddressBook.h>
-#import <UIKit/UIKit.h>
+#import "AddressBook.h"
+#import "UIKit.h"
 #import "RCTContacts.h"
-#import <Contacts/Contacts.h>
-#import <AssetsLibrary/AssetsLibrary.h>
+#import "Contacts.h"
+#import "AssetsLibrary.h"
 
 @implementation RCTContacts {
     CNContactStore * contactStore;
